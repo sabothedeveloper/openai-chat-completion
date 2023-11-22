@@ -62,7 +62,7 @@ function App() {
         },
       ]);
     }
-  }, [message, currentTitle]);
+  }, [message, currentTitle, value]);
 
   const currentChat = previousChats.filter(
     (previousChats) => previousChats.title === currentTitle
